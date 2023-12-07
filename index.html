@@ -3,57 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Document</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
+        .container{
+            background-color:darkgoldenrod ;
+            gap: 50px; ;
+            height: 800px; ;
+            width: 800px; ;
+            margin: 70px auto ;
+            position: relative;
+            border: 3px solid black;
 
-        header {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 20px;
         }
-
-        section {
-            margin-top: 20px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        .info {
-            display: flex;
-            margin-bottom: 10px;
-        }
-
-        .info strong {
-            width: 120px;
-            font-weight: bold;
-        }
-
-        .education,
-        .experience {
-            margin-bottom: 30px;
-        }
-
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .skills li {
+        .item{
             display: inline-block;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            background-color: #333;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
+        }
+        .box1{
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            top: 300px;
+            position: sticky;
+        }
+        .box2{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(187, 255, 0);
+            position: fixed;
+        }
+        .box3{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(0, 255, 85);
+        }
+        .box4{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(78, 16, 140);
+        }
+        .box5{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(0, 217, 255);
+        }
+        .space{
+            height: 1000px;
         }
     </style>
 </head>
+<body>
+    <div class="container">
+        <div class="box1 item">1</div>
+        <div class="box2 item">2</div>
+        <div class="box3 item">3</div>
+        <div class="box4 item">4</div>
+        <div class="box5 item">5</div>
+    </div>
+    <div class="space"></div>
+</body>
+</html>
